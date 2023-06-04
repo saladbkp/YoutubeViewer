@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\khwon\Desktop\YoutubeViewers.WPF\YoutubeViewers.WPF\App.xaml
-4-758166713
+82055373533
 
-15288797131
-195639240151
-Components\YoutubeViewerDetails.xaml;Components\YoutubeViewersListing.xaml;MainWindow.xaml;Views\YoutubeViewersView.xaml;
+321212833624
+1961917059447
+Components\YoutubeViewerDetails.xaml;Components\YoutubeViewerDetailsForm.xaml;Components\YoutubeViewersListing.xaml;Components\YoutubeViewersListingItem.xaml;MainWindow.xaml;Views\AddYoutubeViewerView.xaml;Views\EditYoutubeViewerView.xaml;Views\YoutubeViewersView.xaml;
 
 False
 

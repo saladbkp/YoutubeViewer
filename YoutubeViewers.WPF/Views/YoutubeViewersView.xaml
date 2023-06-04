@@ -28,7 +28,7 @@
             <Button
                         Grid.Column="1"
                         AutomationProperties.AutomationId="AddYouTubeViewerButton"
-                        Command="{Binding AddYouTubeViewersCommand}"
+                        Command="{Binding AddYoutubeViewersCommand}"
                         Content="Add"
                         FontSize="16" />
         </Grid>

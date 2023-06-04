@@ -4,16 +4,31 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YoutubeViewers.WPF"
-        xmlns:views="clr-namespace:YoutubeViewers.WPF.Views"
+        xmlns:views="clr-namespace:YoutubeViewers.WPF.Views" 
+        xmlns:modalcontrol="clr-namespace:ModalControl;assembly=ModalControl"
+        xmlns:vms="clr-namespace:YoutubeViewers.WPF.ViewModels"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vms:AddYoutubeViewerViewModel}">
+            <views:AddYoutubeViewerView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vms:EditYoutubeViewerViewModel}">
+            <views:EditYoutubeViewerView/>
+        </DataTemplate>
+    </Window.Resources>
+    
     <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
         <Grid>
 
+            <modalcontrol:Modal Panel.ZIndex="1" IsOpen="{Binding IsModelOpen}">
+                <ContentControl Margin="25" Content="{Binding CurrentModelViewModel}"/>
+            </modalcontrol:Modal>
+            
             <views:YoutubeViewersView
                 MaxWidth="1000"
                 Margin="25"
-                />
+                DataContext="{Binding YoutubeViewersViewModel}"/>
         </Grid>
     </ScrollViewer>
 </Window>

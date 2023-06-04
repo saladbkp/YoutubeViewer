@@ -29,3 +29,12 @@ C:\Users\khwon\Desktop\YoutubeViewers.WPF\YoutubeViewers.WPF\obj\Debug\net6.0-wi
 C:\Users\khwon\Desktop\YoutubeViewers.WPF\YoutubeViewers.WPF\obj\Debug\net6.0-windows\Views\YoutubeViewersView.baml
 C:\Users\khwon\Desktop\YoutubeViewers.WPF\YoutubeViewers.WPF\bin\Debug\net6.0-windows\DropdownMenuControl.dll
 C:\Users\khwon\Desktop\YoutubeViewers.WPF\YoutubeViewers.WPF\obj\Debug\net6.0-windows\YoutubeViewers.WPF.csproj.CopyComplete
+C:\Users\khwon\Desktop\YoutubeViewers.WPF\YoutubeViewers.WPF\obj\Debug\net6.0-windows\Components\YoutubeViewerDetailsForm.g.cs
+C:\Users\khwon\Desktop\YoutubeViewers.WPF\YoutubeViewers.WPF\obj\Debug\net6.0-windows\Views\AddYoutubeViewerView.g.cs
+C:\Users\khwon\Desktop\YoutubeViewers.WPF\YoutubeViewers.WPF\obj\Debug\net6.0-windows\Components\YoutubeViewerDetailsForm.baml
+C:\Users\khwon\Desktop\YoutubeViewers.WPF\YoutubeViewers.WPF\obj\Debug\net6.0-windows\Views\AddYoutubeViewerView.baml
+C:\Users\khwon\Desktop\YoutubeViewers.WPF\YoutubeViewers.WPF\bin\Debug\net6.0-windows\ModalControl.dll
+C:\Users\khwon\Desktop\YoutubeViewers.WPF\YoutubeViewers.WPF\obj\Debug\net6.0-windows\Views\EditYoutubeViewerView.g.cs
+C:\Users\khwon\Desktop\YoutubeViewers.WPF\YoutubeViewers.WPF\obj\Debug\net6.0-windows\Views\EditYoutubeViewerView.baml
+C:\Users\khwon\Desktop\YoutubeViewers.WPF\YoutubeViewers.WPF\obj\Debug\net6.0-windows\Components\YoutubeViewersListingItem.g.cs
+C:\Users\khwon\Desktop\YoutubeViewers.WPF\YoutubeViewers.WPF\obj\Debug\net6.0-windows\Components\YoutubeViewersListingItem.baml

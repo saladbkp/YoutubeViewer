@@ -8,17 +8,17 @@ using YoutubeViewers.WPF.Models;
 
 namespace YoutubeViewers.WPF.ViewModels
 {
-    class YoutubeViewersListingItemViewModel:ViewModelBase
+    public class YoutubeViewersListingItemViewModel:ViewModelBase
     {
         public YoutubeViewer YoutubeViewer;
         public string Username => YoutubeViewer.Username;
         public ICommand EditCommand { get; }
         public ICommand DeleteCommand { get; }
 
-        public YoutubeViewersListingItemViewModel(YoutubeViewer youtubeViewer) 
+        public YoutubeViewersListingItemViewModel(YoutubeViewer youtubeViewer,ICommand editCommand) 
         {
-
             YoutubeViewer = youtubeViewer;
+            EditCommand = editCommand;
         }
 
     }

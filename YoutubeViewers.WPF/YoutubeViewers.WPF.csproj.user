@@ -10,7 +10,19 @@
     <Compile Update="Components\YoutubeViewerDetails.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Components\YoutubeViewerDetailsForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Components\YoutubeViewersListing.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\YoutubeViewersListingItem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AddYoutubeViewerView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\EditYoutubeViewerView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\YoutubeViewersView.xaml.cs">
@@ -21,10 +33,22 @@
     <Page Update="Components\YoutubeViewerDetails.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Components\YoutubeViewerDetailsForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Components\YoutubeViewersListing.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Components\YoutubeViewersListingItem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AddYoutubeViewerView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\EditYoutubeViewerView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\YoutubeViewersView.xaml">
